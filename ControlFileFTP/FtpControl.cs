@@ -119,7 +119,7 @@ namespace ControlFileFTP
             }
         }
 
-        public bool RenomearArquivo(string path, string nameFile, string renameFile)
+        public bool RenameFile(string path, string nameFile, string renameFile)
         {
             if (String.IsNullOrWhiteSpace(path))
             {
